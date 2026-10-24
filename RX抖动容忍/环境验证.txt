@@ -1,0 +1,7 @@
+当前运行环境版本
+jingyu_PCIE_0.7.0_3_0.fw_tc3_nofast_JINGYU_SS5V1_ed381_ATB_BUG_FIX.elf
+
+执行指令
+python pcie6_ber_test_mp1900.py --scan --settle 10 --ber-wait 5 --samples 1
+
+python jitter_tolerance_test.py --preset 6 --frequencies "400,1000,2000,5000,10000,50000"

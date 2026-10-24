@@ -1,0 +1,62 @@
+DCC DSK
+******
+dump_ssm_cal_result
+dump_rx_dll_Deskew_v2
+serdes_ATB_DUMP_BY_SIGNAL_ID
+serdes_atb_enable
+
+万用表
+耗时：0h 3m 35.00s
+
+VCO  --KVCO
+******
+serdes_ATB_DUMP_BY_SIGNAL_ID
+
+serdes_write_register_by_field
+serdes_read_register_by_field
+serdes_dump_pll0_vco_freq
+serdes_dump_pll1_vco_freq
+
+耗时：0h 4m 1.00s
+版本信息：jingyu_PCIE_6.7.1_3_0.fw_tc3_nofast_JINGYU_SS5V1_3b8af_eyeh_regfunction_vco.elf
+
+VREG_CP
+******
+
+serdes_write_register_by_field
+serdes_ATB_DUMP_BY_SIGNAL_ID
+万用表
+温巡
+
+VREG_OSC
+******
+serdes_write_register_by_field
+serdes_ATB_DUMP_BY_SIGNAL_ID
+万用表
+温巡
+
+耗时：根据温度实际设定确定，稳定温度测量电压耗时为0h 0m 47.61s
+总耗时: 0h 35m 43.15s  （常压）
+版本信息：jingyu_PCIE_0.7.0_3_0.fw_tc3_nofast_JINGYU_SS5V1_ed381_ATB_BUG_FIX.elf
+
+temp_温巡
+
+总耗时: 0h 20m 13.11s
+（17测试点步长10，）
+
+VREG_VBE
+
+温巡测试
+serdes_ATB_DUMP_BY_SIGNAL_ID
+测试依据DFX自动测电压（vph）
+
+耗时：根据温度实际设定确定，初步确定34个温度点，步长5度
+总耗时：0h 47m 59.44s  
+不等待温度变化耗时：0h 8m 23.96s
+版本信息：jingyu_PCIE_0.7.0_3_0.fw_tc3_nofast_JINGYU_SS5V1_ed381_caltop_test_731_v2.elf
+
+
+误码仪PRESET_SCAN
+误码仪jitter遍历：
+总耗时：总运行时间: 0h 12m 43.5s
+
